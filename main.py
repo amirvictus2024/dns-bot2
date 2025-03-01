@@ -1456,7 +1456,7 @@ async def admin_broadcast_handler(update: Update, context: ContextTypes.DEFAULT_
 # Main function
 def main() -> None:
     # Create the application and pass it your bot's token
-    token = os.environ.get("TELEGRAM_BOT_TOKEN", "7803081238:AAElmVbkSobMCXnkcWqYmSV839BXstEGV1E")
+    token = os.environ.get("TELEGRAM_BOT_TOKEN", "7426668282:AAGomYDgN_lXAkpzABbwM7irPs_XT0SW11c")
     application = Application.builder().token(token).build()
 
     # Create conversation handler with states
