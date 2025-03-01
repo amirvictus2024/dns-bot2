@@ -30,8 +30,8 @@ DEFAULT_BOT_CONFIG = {
 DEFAULT_SERVER_DATA = {
     "locations": {
         "germany": {"active": True, "flag": "🇩🇪", "name": "آلمان", "ipv4_cidr": ["185.220.70.0/24"], "ipv6_prefix": ["2001:ac8:20::/48"], "price": 18000},
-        "finland": {"active": True, "flag": "🇫🇮", "name": "فنلاند", "ipv4_cidr": ["192.168.2.0/24"], "ipv6_prefix": ["2001:db8:3::", "2001:db8:4::"], "price": 22500},
-        "albania": {"active": True, "flag": "🇦🇱", "name": "آلبانی", "ipv4_cidr": ["192.168.3.0/24"], "ipv6_prefix": ["2001:db8:5::", "2001:db8:6::"], "price": 16500},
+        "finland": {"active": True, "flag": "🇫🇮", "name": "فنلاند", "ipv4_cidr": ["130.195.220.0/24", "130.195.221.0/24"], "ipv6_prefix": ["2a0d:5600:115::/48"], "price": 22500},
+        "Hungary": {"active": True, "flag": "🇭🇺", "name": "مجارستان", "ipv4_cidr": ["91.207.56.0/24", "185.94.190.0/24"], "ipv6_prefix": ["2001:ac8:26::/48"], "price": 16500},
         "turkey": {"active": True, "flag": "🇹🇷", "name": "ترکیه", "ipv4_cidr": ["192.168.4.0/24"], "ipv6_prefix": ["2001:db8:7::", "2001:db8:8::"], "price": 19500},
         "russia": {"active": True, "flag": "🇷🇺", "name": "روسیه", "ipv4_cidr": ["192.168.5.0/24"], "ipv6_prefix": ["2001:db8:9::", "2001:db8:10::"], "price": 15000}
     },
